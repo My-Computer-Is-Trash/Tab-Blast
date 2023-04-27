@@ -1,2 +1,0 @@
-Change the link that will open to be user-definable
- Change the number of tabs that will open to be user-definable
