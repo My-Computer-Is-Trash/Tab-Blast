@@ -1,14 +1,42 @@
-.container {
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  position:relative;
-  text-align:center;
+.container{
+    margin-top:100px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    text-align:center;
 }
 
-.container h1 {
-  color:rgb(1,150,215); 
+.container h1{
+    font-size: 500%;
+    color:rgb(1,150,215);
+    line-height: 2px
+}
+
+.numberoftabs{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    text-align:center;
+}
+
+.numberoftabs input{
+    outline-style: solid;
+    outline-color: #0196d7;
+    text-align:center;
+}
+
+.startbutton{
+    margin: 30px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    text-align:center;
 }
 
 /*<Tab Explode> <A Program That Opens A Lot Of Tabs>

@@ -1,16 +1,25 @@
 <html>
-     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Tab Explode</title>
-     <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/SKOOBIESNASKS/Tab-Explode/main/favicon.ico">
-     <body>
+    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/SKOOBIESNASKS/Tab-Explode/main/favicon.ico">
+    <body>
+        
         <div class="container">
-                <h1>Tab Explode</h1>
-                <h2>The In Browser Stress Test</h2>
-                <h4>When you click the button below, this program opens 10,000 tabs, all with the link "https://www.google.com". You can learn more on <a target="_blank" href="https://github.com/SKOOBIESNASKS/Tab-Explode/blob/main/About">Github</a></h4>
-                <button onclick="windowOpen()">Start Stress Test</button>
-            </div>
+            <h1>Tab Explode</h1>
+            <h2>The In Browser Stress Test</h2>
+            <h4>When you click the button below, this program will open the amount tabs you tell it to, all with the link "https://www.google.com". You can learn more on <a target="_blank" href="https://github.com/SKOOBIESNASKS/Tab-Explode/blob/main/About">Github</a></h4>
+        </div>
+        
+        <div class="numberoftabs">
+            <input type="number" id="numberoftabs" name="numberoftabs" placeholder="Number of tabs">
+        </div>
+        
+        <div class="startbutton">
+            <button onclick="windowOpen()">Start Stress Test</button>
+        </div>
+        
     </body>
-    <script src="main.js"></script>
+<script src="main.js"></script>
 </html>
 <!--
 <Tab Explode> <A Program That Opens A Lot Of Tabs>

@@ -1,7 +1,8 @@
 function windowOpen() {
-            for(var i = 0; i < 10000; i++) {
-                window.open("https://www.google.com");
-            }
+    var numberoftabs = document.getElementById("numberoftabs").value;
+        for(var i = 0; i < numberoftabs; i++) {
+            window.open("https://www.google.com");
+        }
 }
 
 //<Tab Explode> <A Program That Opens A Lot Of Tabs>
