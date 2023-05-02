@@ -1,7 +1,35 @@
-.container{
-    font-family: "Helvetica Neue", "Arial", sans-serif;
-    margin-top:100px;
+.HeadingAndSubheadingContainer{
+    font-family: 'Rubik', sans-serif;
     display:flex;
+    flex-direction:column;
+    align-items:center;
+    position:reletive;
+    text-align:center;
+    margin-top:40px;
+}
+
+.Heading{
+    margin:0%;
+    height:170px;
+    width:850px;
+    font-size:9em;
+    color: transparent;
+    background-image:linear-gradient(120deg, hsla(240, 100%, 66%, 1) 0%, hsla(178, 99%, 65%, 1) 100%);
+    -webkit-background-clip:text;
+    background-clip:text;
+    -webkit-background-clip:text;
+    animation: StartButtonGlow 80s linear infinite;
+    
+}
+.Subheading{
+    font-size:2em;
+    width:1000px;
+    height:0%;
+    margin:0%;
+}
+
+.NumberOfTabsContainer{
+    margin-top:70px;
     flex-direction:column;
     justify-content:center;
     align-items:center;
@@ -9,15 +37,35 @@
     text-align:center;
 }
 
-.container h1{
-    font-size: 500%;
-    color:rgb(1,150,215);
-    line-height: 2px
+.NumberOfTabs{
+    font-family: 'Rubik', sans-serif;
+    padding: 20px 20px;
+    margin: 4px 2px;
+    outline:none;
+    border: none;
+    font-weight:bold;
+    border-radius: 8px;
+    font-size: 18px;
+    text-align:center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 8px 0px;
+    transition-duration: 0.2s;
 }
 
-.numberoftabs{
-    font-family: "Helvetica Neue", "Arial", sans-serif;
-    display:flex;
+.NumberOfTabs:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 16px 0px;
+    transform: scale(1.01); 
+    cursor:text;
+}
+
+.NumberOfTabs:active{
+    box-shadow: rgba(0, 0, 0, 0.3) 
+    0px 2px 8px 0px;
+    transform: scale(1); 
+    cursor:text;
+}
+
+.StartButtonContainer{
+    margin-top:200px;
     flex-direction:column;
     justify-content:center;
     align-items:center;
@@ -25,22 +73,92 @@
     text-align:center;
 }
 
-.numberoftabs input{
-    outline-style: solid;
-    outline-color: #0196d7;
+
+.StartButton{
+    font-family: 'Rubik', sans-serif;
+    transform-style: preserve-3d;
+    padding: 20px 30px 20px 20px;
+    margin: 4px 2px;
+    color:#ffffff;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    background-image:linear-gradient(120deg, hsla(240, 100%, 66%, 1) 0%, hsla(178, 99%, 65%, 1) 100%);
+    outline:none;
     text-align:center;
+    border: none;
+    font-weight:bold;
+    border-radius: 8px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 8px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition-duration: 0.2s;
+    
 }
 
-.startbutton{
-    font-family: "Helvetica Neue", "Arial", sans-serif;
-    margin: 30px;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    position:relative;
-    text-align:center;
-    font-family:"Arial",sans-serif
+.StartButton:before {
+  content: "";
+  background: linear-gradient(
+    120deg,
+    #5252ff,
+    #4dfef8,
+    #5252ff,
+    #4dfef8,
+    #5252ff,
+    #4dfef8,
+    #5252ff,
+    #5252ff,
+    #4dfef8,
+    #5252ff
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 1000%;
+  z-index:-1;
+  filter: blur(0.5em);
+  -webkit-filter: blur(0.5em);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: StartButtonGlow 80s linear infinite;
+  border-radius: 8px;
+}
+
+@keyframes StartButtonGlow {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 800% 0;
+  }
+}
+
+.StartButton:after{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+}
+
+.StartButton:hover{
+    background: linear-gradient(120deg, hsla(240, 100%, 66%, 1) 0%, hsla(178, 99%, 65%, 1) 100%);;
+    transform: scale(1.05);
+}
+
+.StartButton:active{
+    transform: scale(1); 
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 8px 0px;
+}
+
+.StartButton:disabled{
+  opacity: 0.5;
+  pointer-events: none;
 }
 
 /*<Tab Explode> <A Program That Opens A Lot Of Tabs>
