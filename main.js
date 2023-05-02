@@ -1,9 +1,16 @@
 function windowOpen() {
-    var numberoftabs = document.getElementById("numberoftabs").value;
+    var numberoftabs = document.getElementById("NumberOfTabs").value;
         for(var i = 0; i < numberoftabs; i++) {
             window.open("https://www.google.com");
         }
 }
+
+var StartButton = document.getElementById("StartButton");
+var NumberOfTabs = document.getElementById("NumberOfTabs");
+
+
+           
+
 
 //<Tab Explode> <A Program That Opens A Lot Of Tabs>
 //    Copyright (C) <2023>  <Jack Burlingham>
