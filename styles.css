@@ -3,7 +3,7 @@
     display:flex;
     flex-direction:column;
     align-items:center;
-    position:reletive;
+    position:relative;
     text-align:center;
     margin-top:40px;
 }
@@ -17,8 +17,6 @@
     background-image:linear-gradient(120deg, hsla(240, 100%, 66%, 1) 0%, hsla(178, 99%, 65%, 1) 100%);
     -webkit-background-clip:text;
     background-clip:text;
-    -webkit-background-clip:text;
-    animation: StartButtonGlow 80s linear infinite;
     
 }
 .Subheading{
