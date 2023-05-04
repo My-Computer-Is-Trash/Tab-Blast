@@ -1,5 +1,5 @@
 <html>
-    <style class="style">
+    <style class="Style">
     @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
     </style>
     <link rel="stylesheet" href="styles.css">
@@ -17,15 +17,16 @@
         <meta name="theme-color" content="#ffffff">
         <div class="HeadingAndSubheadingContainer">
             <h1 class="Heading">Tab Blast</h1>
+            <h1 class="HeadingGlow">Tab Blast</h1>
             <h3 class="Subheading">The In Browser Stress Test That Opens Tabs!</h3>
         </div>
     </head>
-    <body>
+    <body class="Body">
         <div class="NumberOfTabsContainer">
             <input type="number" class="NumberOfTabs" id="NumberOfTabs" min="0" placeholder="Number of tabs">
         </div>
         <div class="StartButtonContainer">
-            <button class="StartButton" role="button"  onclick="windowOpen()" onkeyup="enableSubmit()" >Start Stress Test</button>
+            <button class="StartButton" role="button"  onclick="IsNumberOfTabsFilledOut()">Start Stress Test</button>
         </div>
     </body>
 <script src="main.js"></script>
