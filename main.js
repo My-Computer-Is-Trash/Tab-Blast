@@ -1,3 +1,6 @@
+function IsNumberOfTabsFilledOut() {
+    
+}
 function windowOpen() {
     var numberoftabs = document.getElementById("NumberOfTabs").value;
         for(var i = 0; i < numberoftabs; i++) {
