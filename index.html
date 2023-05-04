@@ -3,7 +3,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
     </style>
     <link rel="stylesheet" href="styles.css">
-    <title>TBLST</title>
+    <title>Tab Blast</title>
     <head>
         <link rel="apple-touch-icon" sizes="180x180" href="https://my-computer-is-trash.github.io/Tab-Blast/favicons/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="https://my-computer-is-trash.github.io/Tab-Blast/favicons/favicon-32x32.png">
@@ -15,20 +15,18 @@
         <meta name="msapplication-TileImage" content="https://my-computer-is-trash.github.io/Tab-Blast/favicons/mstile-144x144.png">
         <meta name="msapplication-config" content="https://my-computer-is-trash.github.io/Tab-Blast/favicons/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
-        <h1 class="Heading">Tab Blast</h1>
-        <h3 class="Subheading">The In Browser Stress Test That Opens Tabs!</h3>
+        <div class="HeadingAndSubheadingContainer">
+            <h1 class="Heading">Tab Blast</h1>
+            <h3 class="Subheading">The In Browser Stress Test That Opens Tabs!</h3>
         </div>
     </head>
     <body>
-        
         <div class="NumberOfTabsContainer">
             <input type="number" class="NumberOfTabs" id="NumberOfTabs" min="0" placeholder="Number of tabs">
         </div>
-        
         <div class="StartButtonContainer">
             <button class="StartButton" role="button"  onclick="windowOpen()" onkeyup="enableSubmit()" >Start Stress Test</button>
         </div>
-        
     </body>
 <script src="main.js"></script>
 </html>
