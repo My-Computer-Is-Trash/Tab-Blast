@@ -1,19 +1,11 @@
-function IsNumberOfTabsFilledOut() {
-    
-}
 function windowOpen() {
     var numberoftabs = document.getElementById("NumberOfTabs").value;
         for(var i = 0; i < numberoftabs; i++) {
             window.open("https://www.google.com");
         }
 }
-
 var StartButton = document.getElementById("StartButton");
 var NumberOfTabs = document.getElementById("NumberOfTabs");
-
-
-           
-
 
 //<Tab Blast (TBLST)> <A stress test that opens a user-definable amount of tabs>
 //    Copyright (C) <2023>  <Jack Burlingham>
