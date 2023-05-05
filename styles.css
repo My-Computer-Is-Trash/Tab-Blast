@@ -109,7 +109,7 @@
     user-select:none;
     -webkit-user-select:none;
     touch-action:manipulation;
-    transition-duration:0.4s;
+    transition-duration:0.2s;
 }
 
 .StartButton:before{
@@ -148,6 +148,7 @@
 }
 
 .StartButton:active{
+    transition-duration:0.1s;
     transform:scale(1); 
     box-shadow:rgba(0, 0, 0, 0.4) 0px 2px 8px 0px;
 }
