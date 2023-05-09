@@ -6,14 +6,22 @@ function WindowOpen(){
     }
 }
 
-var windowName = 'userConsole'; 
-var popUp = window.open('about:blank', windowName, 'width=1, height=1, left=1, top=1');
-if (popUp == null || typeof(popUp)=='undefined') { 	
-	alert("A popup blocker will prevent Tab Blast from opening tabs! For Tab Blast to work correctly, you must disable your popup-blocker on this site."); 
-}else{ 	
-	popUp.close();
+var windowName = 'userConsole';
+var noPupUp = false
+if (noPopUp == true){
+}else{
+    popUp = window.open('about:blank', windowName, 'width=1, height=1, left=1, top=1');
+    if (popUp == null || typeof(popUp)=='undefined') {
+    var element = document.getElementById("StartButton");
+    element.addEventListener("click", Alert);
+    }else{ 	
+    	popUp.close();
+    	var noPopUp = true
+    }
 }
-
+function Alert() {
+    alert("A popup blocker has prevented Tab Blast from opening tabs! For Tab Blast to work correctly, you must disable your popup-blocker on this site."); 
+}
 //<Tab Blast (TBLST)> <A stress test that opens a user-definable amount of tabs>
 //    Copyright (C) <2023>  <Jack Burlingham>
 //
