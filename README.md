@@ -3,4 +3,4 @@ A stress test that opens a user-definable amount of tabs! Can your computer hand
 
 
 # What I'm currently implimenting...
-I am completely revamping the GUI style....(again lol). Which includes a completely new color scheme, complex good looking button designs, and updates to website functionality (Extreme Mode!)
+I am completely revamping the GUI style....(again lol). Which includes a completely new color scheme, complex good looking button designs, and updates to website functionality: (Extreme Mode!)
