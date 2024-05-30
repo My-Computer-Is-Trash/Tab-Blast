@@ -1,5 +1,5 @@
 # Tab Blast! (TBLST)
-A stress test that opens a user-definable amount of tabs! Can your computer handle it? Probably not. However, it's still fun to watch!
+Put in a number, and a url, and this website will open that many tabs to that url. For example if you wanted to prank your friend, you could setup the website to open 100,000 tabs set to an image of shrek. Have fun.
 
 
 # What I'm currently implimenting...
